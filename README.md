@@ -1,4 +1,4 @@
-Mandrill MailProvider for [node-transacemail](https://github.com/FGRibreau/node-transacemail)
+Mandrill MailProvider for [node-transacemail](https://github.com/FGRibreau/node-transacemail) [![Gittip](http://badgr.co/gittip/fgribreau.png)](https://www.gittip.com/fgribreau/)
 ===========================================
 
 Usage
