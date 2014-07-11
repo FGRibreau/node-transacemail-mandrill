@@ -1,4 +1,4 @@
-Mandrill MailProvider for [node-transacemail](https://github.com/FGRibreau/node-transacemail)
+Mandrill MailProvider for [node-transacemail](https://github.com/FGRibreau/node-transacemail) [![Gittip](http://badgr.co/gittip/fgribreau.png)](https://www.gittip.com/fgribreau/)
 ===========================================
 
 Usage
@@ -28,3 +28,6 @@ var mails = Mailing
 
 mails.setMailProvider();
 ```
+
+## Donate
+[Donate Bitcoins](https://coinbase.com/checkouts/fc3041b9d8116e0b98e7d243c4727a30)
