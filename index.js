@@ -23,6 +23,11 @@ MailProvider.DEBUG_MODE = false;
  */
 MailProvider.DEFAULT_OPTION = {
   message:{
+    headers:{
+      // optional extra headers to add to the message
+      // (currently only Reply-To and X-* headers are allowed)
+      'Content-type': 'text/html; charset=UTF-8'
+    },
     track_opens: true,
     track_clicks: true,
     auto_text:false,
@@ -69,9 +74,9 @@ MailProvider.prototype.send = function(mail, fn){
   });
 
   if(MailProvider.DEBUG_MODE){
-    console.log("\nSending...");
+    console.log("Sending an email to "+mail.data.email);
     console.log(JSON.stringify(options, null, 2));
-    fn();
+    fn(null, [ { email: mail.data.email, status: 'sent' } ]);
     return;
   }
 
