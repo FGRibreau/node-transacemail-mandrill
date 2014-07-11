@@ -1,4 +1,4 @@
-var Mandrill   = require('node-mandrill');
+var Mandrill   = require('node-mandrill-retry');
 var _          = require('lodash');
 var deepExtend = require('deep-extend');
 
