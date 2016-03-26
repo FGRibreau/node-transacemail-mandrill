@@ -24,10 +24,8 @@ var mails = Mailing
                 from_email: "mandrill@transacemail.com",
                 from_name: "Francois-Guillaume Ribreau"
               }));
-
-
-mails.setMailProvider();
 ```
 
 ## Donate
-[Donate Bitcoins](https://coinbase.com/checkouts/fc3041b9d8116e0b98e7d243c4727a30)
+
+I maintain this project in my free time, if it helped you please support my work via [paypal](https://paypal.me/fgribreau) or [bitcoins](https://www.coinbase.com/fgribreau), thanks a lot!
