@@ -22,7 +22,7 @@
     "node": ">= 0.6.0"
   },
   "dependencies": {
-    "lodash": "~1.0.0-rc.3",
+    "lodash": "~4.17.15",
     "q": "~0.8.12",
     "node-mandrill-retry": "~1.0.1",
     "deep-extend": "~0.2.5"
